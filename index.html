@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Reeal Estate Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Home Project <br>DS Applicant</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Photos</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Work With Us</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Real Estate Blog</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px"  >
+    <h1 class="w3-jumbo"><b>Real Estate Blog</b></h1>
+    <label>By Gretchen Sevillano</label>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  <hr>
+  <center>
+      <h5>I presented to you all about the <b><i>classical design</i></b> in interior design and the principal characteristics of this style.</h5>
+  </center>
+  <br><br>
+        
+  <center>
+    <h2>What Defines Classical Style</h2>
+  </center>
+  <p>
+    Classical interior design is a blend of both Greek and roman interior design. This designing basically deals with perfect harmony, balance and order. Giving your interiors a classical look means bringing them much closer to 
+    the earlier period when interior designs like Rococo, Victorian and many such were in trend.
+</p>
+  <!-- Photo grid (modal) -->
+  <hr>
+  <div class="w3-row-padding">
+     <h3>2615 CREST DRIVE, MANHATTAN BEACH, CA 90266</h3>
+     <p><b>PALAZZO TRANQUILLO</b> - This residence is the star property on the biggest ocean view street in Manhattan Beach. Thrilling whitewater ocean views are of a soulful operatic experience, and its surreal sunsets are flawless. Even the marine layer sounds and feels like Amazing Grace when it rolls in. 
+        Cut like a world class diamond at just over 3,200 square feet, its modern exterior is an empowering finish of Cumuru tropical hardwood, glass and steel. The indoor-outdoor lifestyle features a disappearing door...
+          The <a target='_blank' href='https://www.compass.com/listing/2615-crest-drive-manhattan-beach-ca-90266/781014153514964081/' target="_blank">Read more ...</a></p>
+    <img src="images/2615 CREST DRIVE, MANHATTAN BEACH, CA 90266_1.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+  </div>
+  <br>
+  <div class="w3-row-padding" id="showcase">
+    <div class="w3-half">
+      <img src="images/2615 CREST DRIVE, MANHATTAN BEACH, CA 90266_2.webp" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      
+      <img src="images/2615 CREST DRIVE, MANHATTAN BEACH, CA 90266_3.webp" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      
+    </div>
+
+    <div class="w3-half">
+      <img src="images/2615 CREST DRIVE, MANHATTAN BEACH, CA 90266_4.webp" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="images/2615 CREST DRIVE, MANHATTAN BEACH, CA 90266_5.webp" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+    </div>
+  </div>
+
+  <br><br>
+  <div class="w3-row-padding">
+    <h3>528 15TH STREET, MANHATTAN BEACH, CA 90266</h3>
+    <p>Looks and photographs like a Town & Country model. Stunning curb appeal. Lucas Design was commissioned to bring east coast traditional style to meet west coast cool.. Exterior beauty of clean lines, featuring shades of pure white. 10 TVs: 28" to 82" incl w/ premium speakers throughout, only eclipsed by the 142" Stewart Filmscreen theater with premium leather motorized seats.
+         MB Athletic Club is yours w/ state-of-the-art workout, massage & steam rooms.  Home office designed w/ a NY feel of lacquered cabinetry.  Elevator, Savant home automation w/ video, audio, home security, Lutron Shades and Vantage Lighting Control at the touch of a button. Indoor-outdoor living with 
+          The <a href='https://www.zillow.com/homedetails/528-15th-St-Manhattan-Beach-CA-90266/20418303_zpid/' target="_blank">Read more ...</a></p>
+   <img src="images/528 15TH STREET, MANHATTAN BEACH, CA 90266_1.webp" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+ </div>
+ <br>
+ <div class="w3-row-padding">
+   <div class="w3-half">
+     <img src="images/528 15TH STREET, MANHATTAN BEACH, CA 90266_2.webp" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+     
+     <img src="images/528 15TH STREET, MANHATTAN BEACH, CA 90266_3.webp" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+     
+   </div>
+
+   <div class="w3-half">
+     <img src="images/528 15TH STREET, MANHATTAN BEACH, CA 90266_4.webp" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+     <img src="images/528 15TH STREET, MANHATTAN BEACH, CA 90266_5.webp" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+   </div>
+ </div>
+
+ <br><br>
+  <div class="w3-row-padding">
+    <h3>2615 CREST DRIVE, MANHATTAN BEACH, CA 90266</h3>
+    <p>A true closer of a home from the moment you find yourself in its stunning and inviting entry. From the picturesque front living room to the mega size media room downstairs and everything in between, this residence is a place that is timeless.  Luxuriously tough is the stone and wide plank hardwood floors throughout.  Mindfully sophisticated are the amenities like the entertainer’s kitchen, spacious great room, butler’s pantry, and the large hearth stone fireplace. 
+        The main level has two separated living spaces with formal living and dining areas and a more casual family room and nook.  There is also a 5th bedroom/office, perfect for working at home.
+          The <a href='https://www.zillow.com/homedetails/660-33rd-St-Manhattan-Beach-CA-90266/67694046_zpid/' target="_blank">Read more ...</a></p>
+   <img src="images/660 33RD STREET, MANHATTAN BEACH, CA 90266_1.webp" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+ </div>
+ <br>
+ <div class="w3-row-padding">
+   <div class="w3-half">
+     <img src="images/660 33RD STREET, MANHATTAN BEACH, CA 90266_2.webp" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+     
+     <img src="images/660 33RD STREET, MANHATTAN BEACH, CA 90266_3.webp" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+     
+   </div>
+
+   <div class="w3-half">
+     <img src="images/660 33RD STREET, MANHATTAN BEACH, CA 90266_4.webp" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+     <img src="images/660 33RD STREET, MANHATTAN BEACH, CA 90266_5.webp" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+   </div>
+ </div>
+
+  
+
+  
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
+    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Work With Us.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>The best team in the world.</p>
+    
+    
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/jademil.jpg" alt="John" style="width:100%;height:300px;">
+        <div class="w3-container">
+          <h3>Jade Mills </h3>
+          <p class="w3-opacity">REAL ESTATE AGENT</p>
+          <p>Jade Mills Estates is the leading real estate agent in Beverly Hills and has helped hundreds of buyers find their dream home in Los Angeles and Beverly Hills, resulting in over $5 Billion of closed residential real estate transactions in the last 20 years.</p>
+          <a href='https://jademillsestates.com/properties/sale' type="button" class='btn btn-default'>CONTACT US</a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/nobleblack.jpg" alt="Jane" style="width:100%;height:300px;">
+        <div class="w3-container">
+          <h3>Noble Black</h3>
+          <p class="w3-opacity">REAL ESTATE BROKER</p>
+          <p>Noble Black is the premier real estate broker in Manhattan and has helped hundreds of buyers find their dream home in NYC, resulting in almost $1 Billion of closed residential real estate transactions in the last 10 years.</p>
+          <a href='https://nobleblack.com/properties/sale' type="button" class='btn btn-dark'>CONTACT US</a>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/timeelmes.jpg" alt="Mike" style="width:100%;height:300px;">
+        <div class="w3-container">
+          <h3>Tim Elmes</h3>
+          <p class="w3-opacity">FORT LAUDERDALE'S #1 LUXURY REAL ESTATE AGENT</p>
+          <p>Tim and his team have earned numerous prestigious awards and designations. Exceptional market knowledge,
+               professionalism and dedication to customer service enables them to achieve these remarkable results.</p>
+               <a href='https://timelmes.com/' type="button" class='btn btn-dark'>CONTACT US</a>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Do you want us to sell your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
